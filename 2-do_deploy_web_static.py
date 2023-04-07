@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Compresses we static package
-"""i
+"""
 from fabric.api import *
 from datetime import datetime
 from os import path
