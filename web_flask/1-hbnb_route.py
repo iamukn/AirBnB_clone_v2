@@ -13,11 +13,13 @@ def home():
     """
     return ('Hello HBNB!')
 
+
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     """Serves the content of HBNB
     """
     return ("HBNB")
+
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
