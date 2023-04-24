@@ -31,9 +31,9 @@ def text(text):
 def double_route(text="is cool"):
     """serves the /python page and /python/<text>
     """
-    split = text.replace('_', ' ')
     if text:
-        return ("Python is {0}".format(text))
+        replace = text.replace('_', ' ')
+        return ("Python {0}".format(replace))
     else:
         return ("Python {0}".format(text))
 
